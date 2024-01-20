@@ -5,7 +5,7 @@ module.exports = {
   defaultNetwork: 'localhost',
   networks: {
     hardhat: {},
-    localhost: {
+    ganache: {
       url: 'http://127.0.0.1:8545',
     },
   },
